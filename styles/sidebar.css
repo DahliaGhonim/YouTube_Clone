@@ -4,7 +4,54 @@
   top: 55px;
   left: 0;
   bottom: 0;
+  z-index: 200;
 
   background-color: white;
   width: 70px;
+}
+
+.sidebar-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  cursor: pointer;
+}
+
+.sidebar-btn:hover {
+  background-color: rgb(232, 232, 232);
+}
+
+.sidebar-icon {
+  width: 24px;
+  margin: 6px;
+}
+
+.sidebar-text {
+  font-size: 10px;
+}
+
+.home-btn {
+
+}
+
+.explore-btn {
+
+}
+
+.subscriptions-btn {
+
+}
+
+.originals-btn {
+
+}
+
+.youtube-music-btn {
+
+}
+
+.library-btn {
+
 }
