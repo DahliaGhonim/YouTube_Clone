@@ -43,9 +43,7 @@
 .search-bar {
   font-size: 16px;
   padding-left: 10px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(192, 192, 192);
+  border: 1px solid rgb(192, 192, 192);
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   flex: 1;
@@ -54,7 +52,6 @@
 }
 
 .search-bar::placeholder {
-  font-family: Roboto, Arial;
   font-size: 16px;
 }
 
@@ -87,7 +84,6 @@
 
   background-color: rgba(101, 100, 100, 0.8);
   opacity: 0;
-  font-family: Roboto, Arial;
   font-size: 12px;
   color: white;
 
@@ -154,7 +150,6 @@
   right: -7px;
 
   background-color: rgb(195, 31, 31);
-  font-family: Roboto, Arial;
   font-size: 10px;
   color: white;
 
