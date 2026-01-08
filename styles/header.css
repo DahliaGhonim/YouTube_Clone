@@ -104,8 +104,32 @@
   height: 24px;
 }
 
+.notifications-container {
+  position: relative;
+}
+
 .notifications-icon {
   height: 24px;
+}
+
+.notifications-count {
+  position: absolute;
+  top: -2px;
+  right: -7px;
+
+  background-color: rgb(195, 31, 31);
+  font-family: Roboto, Arial;
+  font-size: 10px;
+  color: white;
+
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 4.8px;
+  padding-right: 4.8px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 9px;
 }
 
 .current-user-icon {
