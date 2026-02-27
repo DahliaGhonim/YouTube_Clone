@@ -1,57 +1,74 @@
 
-.sidebar {
-  position: fixed;
-  top: 55px;
-  left: 0;
-  bottom: 0;
-  z-index: 200;
+@media (max-width: 1200px) {
+  .sidebar {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    z-index: 200;
 
-  background-color: white;
-  width: 70px;
-}
+    background-color: white;
+    width: 70px;
+  }
 
-.sidebar-btn {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 75px;
-  cursor: pointer;
-}
+  .sidebar-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    cursor: pointer;
+  }
 
-.sidebar-btn:hover {
-  background-color: rgb(232, 232, 232);
-}
+  .sidebar-btn:hover {
+    background-color: rgb(232, 232, 232);
+  }
 
-.sidebar-icon {
-  width: 24px;
-  margin: 6px;
-}
+  .sidebar-icon {
+    width: 24px;
+    margin: 6px;
+  }
 
-.sidebar-text {
-  font-size: 10px;
-}
-
-.home-btn {
-
-}
-
-.explore-btn {
+  .sidebar-text {
+    font-size: 10px;
+  }
 
 }
 
-.subscriptions-btn {
+
+@media (min-width: 1200.02px) {
+  .sidebar {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    z-index: 200;
+
+    background-color: white;
+    width: 150px;
+    padding: 8px 16px;
+  }
+
+  .sidebar-btn {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .sidebar-btn:hover {
+    background-color: rgb(232, 232, 232);
+  }
+
+  .sidebar-icon {
+    width: 25px;
+    margin: 6px;
+  }
+
+  .sidebar-text {
+    font-size: 14px;
+  }
 
 }
 
-.originals-btn {
-
-}
-
-.youtube-music-btn {
-
-}
-
-.library-btn {
-
-}
